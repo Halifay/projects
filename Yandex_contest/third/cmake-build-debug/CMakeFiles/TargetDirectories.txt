@@ -1,0 +1,3 @@
+/home/mikhail/Garage/C/Yandex_contest/third/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mikhail/Garage/C/Yandex_contest/third/cmake-build-debug/CMakeFiles/third.dir
+/home/mikhail/Garage/C/Yandex_contest/third/cmake-build-debug/CMakeFiles/edit_cache.dir

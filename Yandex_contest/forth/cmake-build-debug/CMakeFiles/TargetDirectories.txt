@@ -1,0 +1,3 @@
+/home/mikhail/Garage/C/Yandex_contest/forth/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mikhail/Garage/C/Yandex_contest/forth/cmake-build-debug/CMakeFiles/forth.dir
+/home/mikhail/Garage/C/Yandex_contest/forth/cmake-build-debug/CMakeFiles/edit_cache.dir

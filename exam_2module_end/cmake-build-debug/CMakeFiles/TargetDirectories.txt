@@ -1,0 +1,3 @@
+/home/mikhail/Garage/C/exam_2module_end/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mikhail/Garage/C/exam_2module_end/cmake-build-debug/CMakeFiles/exam_2module_end.dir
+/home/mikhail/Garage/C/exam_2module_end/cmake-build-debug/CMakeFiles/edit_cache.dir

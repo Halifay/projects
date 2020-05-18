@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mikhail/Garage/C/Yandex_contest/third/main.cpp
+iostream
+-
+string
+-
+vector
+-
+math.h
+-
+algorithm
+-
+set
+-
+map
+-
+queue
+-
+iomanip
+-
+cassert
+-
+stack
+-
+deque
+-
+list
+-
+sstream
+-
+unordered_map
+-
+time.h
+-
+

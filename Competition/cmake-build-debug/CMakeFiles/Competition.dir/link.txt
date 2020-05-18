@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Competition.dir/main.cpp.o  -o Competition 

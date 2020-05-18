@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mikhail/Garage/C/Yandex_contest/forth/main.cpp
+iostream
+-
+vector
+-
+math.h
+-
+algorithm
+-
+iomanip
+-
+deque
+-
+
