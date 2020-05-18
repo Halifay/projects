@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mikhail/Garage/C/lab_9/DataBase.h
+assert.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/home/mikhail/Garage/C/lab_9/main.cpp
+unistd.h
+-
+string.h
+-
+DataBase.h
+/home/mikhail/Garage/C/lab_9/DataBase.h
+

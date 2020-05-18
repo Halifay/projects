@@ -1,0 +1,16 @@
+7 7
+str name
+str surname
+str patronymic
+int rent
+int rent info
+str flat type
+int apartment number
+
+Тахир Айзатулов Хусравхонович 9000 9999 особняк 1 
+h g f 4 5 e 6 
+Elon Musk _ 10000 4000000 четырехкомнатная 14 
+Maria Gracia _ 400 1000 двухкомнатная 54 
+John Smith _ 300 -200 двухкомнатная 123 
+d d o 228 0 однокомнатная 228 
+Михаил Панов Федорович 700 0 однокомнатная 308 
