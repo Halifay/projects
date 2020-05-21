@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mikhail/Garage/C/lab_12/DoublyLinkedList.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/mikhail/Garage/C/lab_12/main.c
+stdio.h
+-
+DoublyLinkedList.h
+/home/mikhail/Garage/C/lab_12/DoublyLinkedList.h
+

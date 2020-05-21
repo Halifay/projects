@@ -32,7 +32,7 @@ void create_list(list *pol)
     scanf("%d", &length);
     while(length < 1)
     {
-        printf("Length is too small, or incorrect. Please try again.\n");
+        printf("Length can not be less than one. Please try again.\n");
         clear();
         scanf("%d", &length);
     }
@@ -45,7 +45,7 @@ void create_list(list *pol)
         int power = -1;
         printf("Enter power of x for current member.\n");
         scanf("%d", &power);
-        while(power < 0 && get_power(pol, power) == NULL)
+        while(power < 0 || get_power(pol, power) != NULL)
         {
             printf("Power is too small or already exists. Please try again.\n");
             clear();
@@ -78,7 +78,10 @@ void print_list(list *pol)
     {
         if(current != pol->first && current->coef>0)
             printf("+");
-        printf("%dx^%d", current->coef, current->power);
+        if(current->power == 0)
+            printf("%d", current->coef);
+        else
+            printf("%dx^%d", current->coef, current->power);
         current = current->next;
     }
     printf("\n");
@@ -128,6 +131,16 @@ void clear()
     while((c = getchar()) != '\n' && c != EOF);
 }
 
+void destroy_list(list *pol)
+{
+    node *current = pol->first;
+    while(current != NULL)
+    {
+        pol->first = current->next;
+        free(current);
+        current = pol->first;
+    }
+}
 
 
 
