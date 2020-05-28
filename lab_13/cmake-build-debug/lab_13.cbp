@@ -81,6 +81,9 @@
 		<Unit filename="/home/mikhail/Garage/C/lab_13/BinaryTree.h">
 			<Option target="lab_13"/>
 		</Unit>
+		<Unit filename="/home/mikhail/Garage/C/lab_13/MihaInput.h">
+			<Option target="lab_13"/>
+		</Unit>
 		<Unit filename="/home/mikhail/Garage/C/lab_13/main.c">
 			<Option target="lab_13"/>
 		</Unit>

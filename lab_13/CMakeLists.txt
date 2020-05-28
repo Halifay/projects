@@ -3,4 +3,4 @@ project(lab_13 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(lab_13 main.c BinaryTree.h)
+add_executable(lab_13 main.c BinaryTree.h MihaInput.h)

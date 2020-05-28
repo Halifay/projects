@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mikhail/Garage/C/lab_13/BinaryTree.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/mikhail/Garage/C/lab_13/MihaInput.h
+stdio.h
+-
+
+/home/mikhail/Garage/C/lab_13/main.c
+stdio.h
+-
+BinaryTree.h
+/home/mikhail/Garage/C/lab_13/BinaryTree.h
+MihaInput.h
+/home/mikhail/Garage/C/lab_13/MihaInput.h
+
